@@ -1,0 +1,56 @@
+/*
+  ========================================
+  HW Bootstrap Portfolio style.css
+  ========================================
+*/
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background: #4aaaa5;
+  background-image: url("../images/light-grey-terrazzo.png");
+  color: #777777;
+}
+.container {
+  /* margin for custom footer */
+  margin-bottom: 40px;
+}
+
+
+/* Content Portfolio */
+.img-container {
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+.img-caption {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background: #4aaaa5;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  left: 0;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5
+}
+
+.cpr-footer {
+  color: white;
+  font-size: 9pt;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
